@@ -6,26 +6,27 @@ L’API est développée avec JAX-RS (Jersey) pour illustrer l’intégration d�
 
 ## Architecture du projet
 src/
-└── main/
-├── java/com/example/demo/
-│   ├── config/
-│   │   └── MyConfig.java            # Configuration Jersey (enregistrement des ressources REST)
-│   ├── controller/
-│   │   └── CompteRestJaxRSAPI.java  # Contrôleur REST (endpoints JAX-RS)
-│   ├── entities/
-│   │   ├── Compte.java              # Entité représentant un compte bancaire
-│   │   └── TypeCompte.java          # Enum pour le type de compte (COURANT, EPARGNE, etc.)
-│   ├── repositories/
-│   │   └── CompteRepository.java    # Interface JPA pour les opérations CRUD
-│   └── DemoApplication.java         # Classe principale (point d’entrée Spring Boot)
-│
-├── resources/
-│   ├── static/                      # Ressources statiques (CSS, JS, images)
-│   ├── templates/                   # Templates (si besoin)
-│   └── application.properties       # Configuration de l’application
-│
-└── test/java/com/example/demo/
-└── DemoApplicationTests.java    # Tests unitaires de base
+ └── main/
+     ├── java/com/example/demo/
+     │   ├── config/
+     │   │   └── MyConfig.java            
+     │   ├── controller/
+     │   │   └── CompteRestJaxRSAPI.java  
+     │   ├── entities/
+     │   │   ├── Compte.java              
+     │   │   └── TypeCompte.java          
+     │   ├── repositories/
+     │   │   └── CompteRepository.java    
+     │   └── DemoApplication.java         
+     │
+     ├── resources/
+     │   ├── static/                      
+     │   ├── templates/                   
+     │   └── application.properties      
+     │
+     └── test/java/com/example/demo/
+         └── DemoApplicationTests.java    
+
 
 ## Technologies utilisées
 
@@ -62,3 +63,8 @@ spring.jpa.hibernate.ddl-auto=update
 ## Lancer l’application
 
 mvn spring-boot:run
+
+<img width="1914" height="561" alt="TP7" src="https://github.com/user-attachments/assets/751bc715-33fe-40c9-b528-9d1cdd70283d" />
+
+<img width="1896" height="1011" alt="TP7 1" src="https://github.com/user-attachments/assets/efd5b145-9179-4a87-ac9b-70713a13f8bc" />
+
