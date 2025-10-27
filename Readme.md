@@ -5,27 +5,8 @@ Ce projet est une application Spring Boot exposant une API RESTful pour la gesti
 L’API est développée avec JAX-RS (Jersey) pour illustrer l’intégration d’un service REST dans un environnement Spring Boot.
 
 ## Architecture du projet
-src/
- └── main/
-     ├── java/com/example/demo/
-     │   ├── config/
-     │   │   └── MyConfig.java            
-     │   ├── controller/
-     │   │   └── CompteRestJaxRSAPI.java  
-     │   ├── entities/
-     │   │   ├── Compte.java              
-     │   │   └── TypeCompte.java          
-     │   ├── repositories/
-     │   │   └── CompteRepository.java    
-     │   └── DemoApplication.java         
-     │
-     ├── resources/
-     │   ├── static/                      
-     │   ├── templates/                   
-     │   └── application.properties      
-     │
-     └── test/java/com/example/demo/
-         └── DemoApplicationTests.java    
+ 
+<img width="356" height="578" alt="Screenshot 2025-10-27 203403" src="https://github.com/user-attachments/assets/3183e945-aba1-4eda-ad08-d65e3acf8818" />
 
 
 ## Technologies utilisées
